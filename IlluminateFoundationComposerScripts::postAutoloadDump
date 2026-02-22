@@ -1,0 +1,29 @@
+> @php artisan package:discover --ansi
+
+   INFO  Discovering packages.  
+
+  laravel/pail .......................................................... DON
+  laravel/pail .......................................................... DONE
+  laravel/sail .......................................................... DON
+  laravel/sail .......................................................... DONE
+  laravel/sct  laravel/sct  laravel/sct  laravel/sct  laravel/s..  laravel/sct  laravel/sctum ....  laravel/sct  laravel/sct  laravel/sc..  laravel/sct  laravel/sct  laravel/sct  laravel/sct ..  laravel/sct  lar....  laravel/sct  laravel/sct  laravel/sct  laravel/sct ..  laravel/sct  laravel/sct  larav...   laravel/sct carb  laravel/sct  laravel/sct  laravel/sct  laravel/sct  lara.. DO  laravel/sct  laravel/sct  laravel/sct  laravel/....  laravel/sct  laravel/sct  laravel/scto/  laravel/sct  laravel/sct  laravel/sct  laravel/sct  lara..  laravel/sct  laravel/sct  larave..  laravel/sct  laravel/sct  laravel/sct  laravel/sct  laduro/termwind ................................................... DON
+  nunomaduro/termwind ................................................... DONE
+  pestphp/pest-plugin-laravel ........................................... DON
+  pestphp/pest-plugin-laravel ........................................... DONE
+
+89 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+   INFO  No publishable resources for tag [laravel-assets].  
+
+No security vulnerability advisories found.
+
+   INFO  Published API routes file.  
+
+ One new database migration has been published. Would you like to run all pen
+ One new database migration has been published. Would you like to run all pending database migrations? (yes/no) [yes]:
+ > php artisan make:command RabbitMQConsumeCommand
+
+   INFO  API scaffolding installed. Please add the [Laravel\Sanctum\HasApiTok
+   INFO  API scaffolding installed. Please add the [Laravel\Sanctum\HasApiTokens] trait to your User model.  
